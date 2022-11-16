@@ -1,0 +1,56 @@
+#root > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.table {
+	width: 80%;
+	margin-bottom: 20px;
+	border: 5px solid #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-collapse: collapse; 
+	outline: 3px solid #fad3cf;
+	font-size: 15px;
+	background: #fff!important;  
+}
+.table th {
+	font-weight: bold;
+	padding: 7px;
+	background: #fad3cf;
+	border: none;
+	text-align: left;
+	font-size: 15px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fad3cf;
+}
+.table td {
+	padding: 7px;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	font-size: 15px;
+  max-width: 70px;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}
+.table tbody tr:nth-child(even){
+	background: #f8f8f8!important;
+}
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.page, .current-page{
+  border: 4px solid #fad3cf;
+  border-radius: 100%;
+  padding: 5px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.current-page {
+  border: 4px solid #060608;
+}

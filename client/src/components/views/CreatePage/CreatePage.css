@@ -1,0 +1,27 @@
+.custom-input {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 10px 10px 0;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+.form{
+    margin-top: 0;
+
+}
+
+.btnform {
+    height: 30px;
+    line-height: 0;
+}
+.custom-p {
+    display:flex;
+    justify-content: center;
+    color: #fad3cf;
+    font-weight: bold;
+    font-size: 20px;
+}
