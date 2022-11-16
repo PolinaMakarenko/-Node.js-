@@ -15,6 +15,7 @@ Stack: NodeJS, Express,  Redis, MongoDB, React, Redux Toolkit.
 -----
 
 Пример настроек для .env лежит в .env.copy
+Для подключения к mongoDB в переменную "DATABASE_UR" вставить свою ссылку на подключение.
 
 Установить зависимости и запустить бэк из папки server с помощью команд: 
 ```
